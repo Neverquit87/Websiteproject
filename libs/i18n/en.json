@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+          "The Great Gazoo"
+        ],
+        "last-updated": "2019-02-01",
+        "locale": "en",
+        "message-documentation": "qqq"
+    },
+    "hdr-title": "Find Your Favorite Sports",
+    "appname-sub-title": "An example application with jquery.i18n"
+}
