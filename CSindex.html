@@ -27,15 +27,16 @@
     <link href="CSmain.css" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!-- //JQUERY i18n -->
-    <script src="jquery_i18n/CLDRPluralRuleParser.js"></script>
-    <script src="jquery_i18n/jquery.i18n.js"></script>
-    <script src="jquery_i18n/jquery.i18n.messagestore.js"></script>
-    <script src="jquery_i18n/jquery.i18n.fallbacks.js"></script>
-    <script src="jquery_i18n/jquery.i18n.language.js"></script>
-    <script src="jquery_i18n/jquery.i18n.parser.js"></script>
-    <script src="jquery_i18n/jquery.i18n.emitter.js"></script>
-    <script src="jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
-    <script src="jquery_i18n/main-jquery_i18n.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="./scripts/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script src="./scripts/jquery_i18n/jquery.i18n.js"></script>
+    <script src="./scripts/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script src="./scripts/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script src="./scripts/jquery_i18n/jquery.i18n.language.js"></script>
+    <script src="./scripts/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script src="./scripts/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script src="./scripts/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script src="./scripts/jquery_i18n/main-jquery_i18n.js"></script>
     <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/35/5/intl/it_ALL/common.js"></script>
     <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/35/5/intl/it_ALL/util.js"></script>
     <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/35/5/intl/it_ALL/geocoder.js"></script>
@@ -465,7 +466,9 @@ contentType: 'application/json; charset=utf-8'
                         <div class="col-md-6"><a class="btn btn-secondary btn-block" href="/accedi-registrati/login/">Registrati</a></div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12 hidden-xs hidden-sm" style="max-width:450px"><img src="/default/assets/img/Pop-Up-Onboarding-PUC.png" class="img-responsive" width="450" height="600"></div>
+                        <!-- div class="col-md-6 col-sm-6 col-xs-12 hidden-xs hidden-sm" style="max-width:450px" -->
+                            <!-- img src="/default/assets/img/Pop-Up-Onboarding-PUC.png" class="img-responsive" width="450" height="600" -->
+                        <!-- /div -->
                         <div class="col-md-6 col-sm-12 text-left">
                             <div class="row">
                                 <div class="col-md-12 col-xs-12">
@@ -488,15 +491,15 @@ contentType: 'application/json; charset=utf-8'
             </div>
         </div>
     </div>
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-            }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d))
-        }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1268047369889096");
-        f truncated 423 bytes...
-    </script>
+    <!--  script type="text/javascript" id="">
+      //  ! function(b, e, f, g, a, c, d) {
+      //      b.fbq || (a = b.fbq = function() {
+      //          a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
+      //      }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d))
+      //  }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
+      //  fbq("init", "1268047369889096");
+      //  f truncated 423 bytes...
+    </script -->
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1268047369889096&amp;ev=PageView&amp;noscript=1"></noscript>
 
 
