@@ -34,5 +34,10 @@
         "user_count": "登记用户",
         "bookings": "总数预约",
         "hours": "时间玩好"
+    },
+    "blurb": {
+        "fast": "Lorem Ipsum只是印刷和排版行业的虚拟文本。自16世纪以来，Lorem Ipsum一直是业界标准的虚拟文本，当时一台未知的打印机采用了类型的厨房，并将其拼凑成一本类型的样本。它不仅存在了五个世纪，而且还延续了电子排版，基本保持不变。它在20世纪60年代随着包含Lorem Ipsum段落的Letraset表格的推出而普及，最近还推出了包括Lorem Ipsum版本在内的Aldus PageMaker等桌面出版软件。",
+        "easy": "Lorem Ipsum只是印刷和排版行业的虚拟文本。自16世纪以来，Lorem Ipsum一直是业界标准的虚拟文本，当时一台未知的打印机采用了类型的厨房，并将其拼凑成一本类型的样本。它不仅存在了五个世纪，而且还延续了电子排版，基本保持不变。它在20世纪60年代随着包含Lorem Ipsum段落的Letraset表格的推出而普及，最近还推出了包括Lorem Ipsum版本在内的Aldus PageMaker等桌面出版软件。",
+        "accurate": "Lorem Ipsum只是印刷和排版行业的虚拟文本。自16世纪以来，Lorem Ipsum一直是业界标准的虚拟文本，当时一台未知的打印机采用了类型的厨房，并将其拼凑成一本类型的样本。它不仅存在了五个世纪，而且还延续了电子排版，基本保持不变。它在20世纪60年代随着包含Lorem Ipsum段落的Letraset表格的推出而普及，最近还推出了包括Lorem Ipsum版本在内的Aldus PageMaker等桌面出版软件。"
     }
 }
