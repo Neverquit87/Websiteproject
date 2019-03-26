@@ -1,12 +1,20 @@
 <DOCTYPE! html></DOCTYPE!>
 <html lang="en">
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Citysport</title>
 
   <script src="./scripts/jquery-3.3.1.min.js"></script>
+  <script src="./scripts/i18next.min.js"></script>
+  <script src="./scripts/jquery-i18next.min.js"></script>
+  <script src="./scripts/i18nextXHRBackend.min.js"></script>
+  <script src="./scripts/i18nextBrowserLanguageDetector.min.js"></script>
+  <script src="./scripts/i18nextLocalStorageCache.min.js"></script>
+  <script src="./scripts/i18nextIntervalPluralPostProcessor.min.js"></script>
   <script src="./scripts/bootstrap.min.js"></script>
   <script src="./scripts/css_helper.js"></script>
+  <script src = "./scripts/global_i18n.js"></script>
   <link rel="stylesheet" type="text/css" href="./styles/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="./styles/addendum.css">
 
@@ -25,12 +33,12 @@
         </div>
         <div class="menu">
           <ul>
-            <li><a href="#">Sports Centers</a></li>
-            <li><a href="#">Clubs</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Manage a Sports Center?</a></li>
-            <li><a href="#">EN/中文</a></li>
-            <li><a href="#">Signin</a></li>
+            <li><a href="#" data-i18n="menu.centers">Sports Centers</a></li>
+            <li><a href="#" data-i18n="menu.clubs">Clubs</a></li>
+            <li><a href="#" data-i18n="menu.about">About Us</a></li>
+            <li><a href="#" data-i18n="menu.manage">Manage a Sports Center?</a></li>
+            <li><a onClick="doSomething()" href="#"  data-i18n="menu.langtog">中文</a></li>
+            <li><a href="#" data-i18n="menu.signin">Signin</a></li>
           </ul>
         </div>
       </nav>
@@ -38,25 +46,25 @@
   </div>
 <section>
   <div class="container">
-    <h2 class="section_title">WHY USE CITYSPORT</h2>
+    <h2 class="section_title" data-i18n="title.whyuse">WHY USE CITYSPORT</h2>
     <div class="row">
       <div class="col-md-4">
         <img class="img-centered" src="./images/fast_150x150.png" />
-        <h2 class="section_title">FAST</h2>
+        <h2 class="section_title" data-i18n="title.fast">FAST</h2>
         <p>
                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
       </div>
       <div class="col-md-4">
         <img class="img-centered" src="./images/easy_150x150.png" />
-        <h2 class="section_title">EASY</h2>
+        <h2 class="section_title" data-i18n="title.easy">EASY</h2>
         <p>
                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
       </div>
       <div class="col-md-4">
         <img class="img-centered"  src="./images/accurate_150x150.png" />
-        <h2 class="section_title">ACCURATE</h2>
+        <h2 class="section_title" data-i18n="title.accurate">ACCURATE</h2>
         <p>
                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
@@ -72,26 +80,26 @@
         <!-- Full-width images with number and caption text -->
           <div class="mySlides slidein">
             <img src="./images/ff_jayne.jpg">
-            <span class="text"><q>I needed a place to practice firing my REALLY big guns. Citysport had the knowledge I'd been seeking</q><br>---Jayne</span>
+            <span class="text"><q data-i18n="quote.first">I needed a place to practice firing my REALLY big guns. Citysport had the knowledge I'd been seeking</q><br>---Jayne</span>
           </div>
           <div class="mySlides slidein">
             <img src="./images/fs_char_zhaan.jpg">
-            <span class="text"><q>Finding inner peace through meditation is troublesome at the best of times. Thank the goddess for citysport's extensive reposistory of yoga and meditation studios.</q><br>---Pa'u Zotoh Zhaan</span>
+            <span class="text"><q data-i18n="quote.second">Finding inner peace through meditation is troublesome at the best of times. Thank the goddess for citysport's extensive reposistory of yoga and meditation studios.</q><br>---Pa'u Zotoh Zhaan</span>
           </div>
           <div class="mySlides slidein">
             <img src="./images/ff_zoe.jpg">
-            <span class="text"><q>Thanks to Citysport I was able to find a good boxing gym to work out. Now I woun't have to kill my husband.</q><br>---Zoe</span>
+            <span class="text"><q data-i18n="quote.third">Thanks to Citysport I was able to find a good boxing gym to work out. Now I woun't have to kill my husband.</q><br>---Zoe</span>
           </div>
           <div class="mySlides slidein">
             <img src="./images/fs_char_dargo.jpg">
-            <span class="text"><q>When I first arrived on earth, I never thought I'd find a place to use my qualta blade, however with the help of Citysport I was able to find a fencing school where I can hone my skills and teach others part of a fine Luxan tradition.</q><br>---Ka D'Argo</span>
+            <span class="text"><q data-i18n="quote.fourth">When I first arrived on earth, I never thought I'd find a place to use my qualta blade, however with the help of Citysport I was able to find a fencing school where I can hone my skills and teach others part of a fine Luxan tradition.</q><br>---Ka D'Argo</span>
           </div>
         </div>
       </div>
       <div class="col-md-1"></div>
         <div class="col-md-4">
-          <h2 class="header_title">Download our Wechat miniprogram</h2>
-          <img class="img-centered"  src="./images/qr_latest.jpeg" />
+          <h2 class="header_title" data-i18n="title.download">Download our Wechat miniprogram</h2>
+          <img class="img-centered" src="./images/qr_latest.jpeg" />
         </div>
       </div>
   </div>
@@ -101,25 +109,25 @@
     <div class="row small-margin">
       <div class="col-md-3">
         <h3 id="center_count"></h3>
-        <h4>Shanghai Sports Centers</h4>
+        <h4 data-i18n="stats.centers">Shanghai Sports Centers</h4>
       </div>
       <div class="col-md-3">
         <h3 id="user_count"></h3>
-        <h4>Registered Users</h4>
+        <h4 data-i18n="stats.user_count">Registered Users</h4>
       </div>
       <div class="col-md-3">
         <h3 id="booking_count"></h3>
-        <h4>Total Bookings</h4>
+        <h4 data-i18n="stats.bookings">Total Bookings</h4>
       </div>
       <div class="col-md-3">
         <h3 id="hour_count"></h3>
-        <h4>Hours Played</h4>
+        <h4 data-i18n="stats.hours">Hours Played</h4>
       </div>
     </div>
   </div>
 </section>
 <section>
-  <h2 class="section_title">Our Partners</h2>
+  <h2 class="section_title" data-i18n="title.partners">Our Partners</h2>
   <div class="container collaborators">
       <div class="logos-row">
         <div class="row">

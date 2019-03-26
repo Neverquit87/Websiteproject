@@ -25,9 +25,7 @@ function getStats() {
 
 
 function postStats(data) {
-    console.log(data);
     counts = data.data.sort((a, b) => {return a - b});
-    console.log(counts);
     $("#center_count")[0].innerHTML = counts[0];
     $("#user_count")[0].innerHTML = counts[1];
     $("#booking_count")[0].innerHTML = counts[2];

@@ -1,0 +1,38 @@
+{
+    "@metadata": {
+        "authors": [
+          "The Great Gazoo"
+        ],
+        "last-updated": "2016-09-21",
+        "locale": "en",
+        "message-documentation": "qqq"
+    },
+    "menu": {
+        "centers": "运动中心",
+        "clubs": "联谊会",
+        "about": "我们故事",
+        "manage": "管理一个运动中心",
+        "langtog": "English",
+        "signin": "登录"
+    },
+    "title": {
+        "whyuse": "为毛用CITYSPORT",
+        "easy": "得手",
+        "fast": "快速",
+        "accurate": "准确",
+        "download": "下载我们的微信小程序",
+        "partners": "我们火友"
+    },
+    "quote": { 
+        "fourth": "当我第一次到达地球时，我从未想过我会找到一个使用我的Qualta刀片的地方，但是在Citysport的帮助下我能找到一个击剑学校，在那里我可以磨练我的技能并教别人一部分精美的Luxan传统",
+        "second": "在最好的时候，通过冥想寻找内心的平静是很麻烦的。感谢女神为Citysport提供广泛的瑜伽和冥想工作室。",
+        "third": "感谢Citysport，我找到了一个很好的拳击馆。现在我不必杀死我的老公。",
+        "first": "我需要一个地方练习射击我真正的大枪。 Citysport拥有我一直在寻求的知识"
+    },
+    "stats": {
+        "centers": "上海运动中心",
+        "user_count": "登记用户",
+        "bookings": "总数预约",
+        "hours": "时间玩好"
+    }
+}

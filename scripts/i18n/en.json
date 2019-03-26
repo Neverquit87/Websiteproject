@@ -1,0 +1,38 @@
+{
+    "@metadata": {
+        "authors": [
+          "The Great Gazoo"
+        ],
+        "last-updated": "2019-02-01",
+        "locale": "en",
+        "message-documentation": "qqq"
+    },
+    "menu": {
+        "centers": "Sports Centers",
+        "clubs": "Clubs",
+        "about": "About Us",
+        "manage": "Manage a Sports Center",
+        "langtog": "中文",
+        "signin": "Signin"
+    },
+    "title": {
+        "whyuse": "WHY USE CITYSPORT",
+        "easy": "EASY",
+        "fast": "FAST",
+        "accurate": "ACCURATE",
+        "download": "Download out WeChat miniprogram",
+        "partners": "Our Partners"
+    },
+    "quote": { 
+        "fourth": "When I first arrived on earth, I never thought I'd find a place to use my qualta blade, however with the help of Citysport I was able to find a fencing school where I can hone my skills and teach others part of a fine Luxan tradition.",
+        "second": "Finding inner peace through meditation is troublesome at the best of times. Thank the goddess for citysport's extensive reposistory of yoga and meditation studios.",
+        "third": "Thanks to Citysport I was able to find a good boxing gym to work out. Now I woun't have to kill my husband.",
+        "first": "I needed a place to practice firing my REALLY big guns. Citysport had the knowledge I'd been seeking"
+    },
+    "stats": {
+        "centers": "Shanghai Sports Centers",
+        "user_count": "Registered Users",
+        "bookings": "Total Bookings",
+        "hours": "Hours Played"
+    }
+}
